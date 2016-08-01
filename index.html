@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>My blog</title>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/jquery.slides.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+      		$("#slides").slidesjs({
+        		navigation: false,
+        		height: 300
+      		});
+    	});
+	</script>
+</head>
+<body>
+	<header> 
+		<div id="logo"><p>My Blog</p> <span>by Erick Garcia</span> </div> 
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Acerca de</a></li>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="#">Pagina Ejemplo</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	 <section id="main">
+		<article id="slides">
+			<div class="slide">
+				<img src="http://lorempixel.com/470/300" alt="" class="thumb">
+				<div>
+					<hgroup><h2><a href="#">Titulo de nuestro articulo</a></h2></hgroup>
+					<p class="date">26 de Diciembre de 2014 en <a href="#"> Categoria1</a></p>
+					<p class="extract">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+				</div>
+			</div>
+			<div class="slide">
+				<img src="http://lorempixel.com/470/300" alt="" class="thumb">
+				<div>
+					<hgroup><h2><a href="#">Titulo de nuestro articulo</a></h2></hgroup>
+					<p class="date">26 de Diciembre de 2014 en <a href="#"> Categoria1</a></p>
+					<p class="extract">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+				</div>
+			</div>
+			
+		</article>
+	</section>
+	
+
+</body>
+</html>
